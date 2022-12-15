@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <nav class="navbar sticky-sm-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://camo.githubusercontent.com/eb8b5f9caa4b4765b222e961729eadb775ac710b/68747470733a2f2f67617265766e612e6769746875622e696f2f6a732d73616d706c65732f696d616765732f612d6c6576656c2d69636f2e706e67" alt="" width="30" height="30" class="d-inline-block align-text-top">
+        A-Level
+      </a>
+    </div>
+    <div class="container mt-3">
+      <br>
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#index">Index</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#resource">Resource</a>
+        </li>
+      </ul>
+
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#log" role="button" aria-expanded="false">Log in</a>
+          <div class="dropdown-menu">
+              <form class="px-4 py-3">
+                <div class="form-group">
+                  <label for="exampleDropdownFormEmail1">Email address</label>
+                  <input type="email" class="form-control is-invalid" id="exampleDropdownFormEmail1" placeholder="email@example.com" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                </div>
+                <div class="form-group">
+                  <label for="exampleDropdownFormPassword1">Password</label>
+                  <input type="password" class="form-control is-invalid" id="exampleDropdownFormPassword1" placeholder="Password" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                  <label class="form-check-label" for="dropdownCheck">
+                    Remember me
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">New around here? Sign up</a>
+              <a class="dropdown-item" href="#">Forgot password?</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">Add resource</a>
+          <div class="dropdown-menu">
+            <form class="px-4 py-3">
+              <div class="form-group">
+                <label for="exampleDropdownFormEmail1">Name</label>
+                <input type="email" class="form-control is-invalid" id="exampleDropdownFormName" placeholder="Color name" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+              </div>
+              <div class="form-group">
+                <label for="exampleDropdownFormPassword1">Color</label>
+                <input type="password" class="form-control is-invalid" id="exampleDropdownFormColor" placeholder="#000000" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Add</button>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+
+<body>
+<div class="tab-content">
+  <div id="index" class="container tab-pane active"><br>
+    <div class="row row-cols-1 row-cols-sm-3 g-6">
+      <div class="card-group">
+        <div class="card">
+          <img src="https://reqres.in/img/faces/7-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Michael Lawson</h5>
+            <p class="card-text">Id: 7,
+              Email: michael.lawson@reqres.in,
+              First name: Michael,
+              Last name": Lawson</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="https://reqres.in/img/faces/8-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lindsay Ferguson</h5>
+            <p class="card-text">Id: 8,
+              Email: lindsay.ferguson@reqres.in,
+              First name: Lindsay,
+              Last name: Ferguson</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="https://reqres.in/img/faces/9-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tobias Funke</h5>
+            <p class="card-text">Id: 9,
+              Email: tobias.funke@reqres.in,
+              First name: Tobias,
+              Last name: Funke</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="https://reqres.in/img/faces/10-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Byron Fields</h5>
+            <p class="card-text">Id: 10,
+              Email: byron.fields@reqres.in,
+              First name: Byron,
+              Last name: Fields</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="https://reqres.in/img/faces/11-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">George Edwards</h5>
+            <p class="card-text">Id: 11,
+              Email: george.edwards@reqres.in,
+              First name: George,
+              Last name: Edwards</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="https://reqres.in/img/faces/12-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rachel Howell</h5>
+            <p class="card-text">Id: 12,
+              Email: rachel.howell@reqres.in,
+              First name: Rachel,
+              Last name: Howell</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content">
+    <div id="resource" class="container tab-pane active"><br>
+      <div class="row row-cols-1 row-cols-sm-3 g-6">
+        <div class="card-group">
+          <div class="card">
+            <div  style="background-color: #98B2D1" class="card-body">
+              <h5 class="card-title">Cerulean</h5>
+              <p class="card-text">Id: 1,
+                Name: Cerulean,
+                Year: 2000,
+                Color: #98B2D1,
+                Pantone value: 15-4020</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <div style="background-color: #C74375" class="card-body">
+              <h5 class="card-title">Fuchsia rose</h5>
+              <p class="card-text">Id: 2,
+                Name: Fuchsia rose,
+                Year: 2001,
+                Color: #C74375,
+                Pantone value: 17-2031</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <div style="background-color: #BF1932" class="card-body">
+              <h5 class="card-title">True red</h5>
+              <p class="card-text">Id: 3,
+                Name: True red,
+                Year: 2002,
+                Color: #BF1932,
+                Pantone value: 19-1664</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <div style="background-color: #7BC4C4" class="card-body">
+              <h5 class="card-title">Aqua sky</h5>
+              <p class="card-text">Id: 4,
+                Name: Aqua sky,
+                Year: 2003,
+                Color: #7BC4C4,
+                Pantone value: 14-4811</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <div style="background-color: #E2583E" class="card-body">
+              <h5 class="card-title">Tigerlily</h5>
+              <p class="card-text">Id: 5,
+                Name: Tigerlily,
+                Year: 2004,
+                Color: #E2583E,
+                Pantone value: 17-1456</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <div style="background-color: #53B0AE" class="card-body">
+              <h5 class="card-title">Blue turquoise</h5>
+              <p class="card-text">Id: 6,
+                Name: Blue turquoise,
+                Year: 2005,
+                Color: #53B0AE,
+                Pantone value: 15-5217</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-end">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+</body>
+</html>
